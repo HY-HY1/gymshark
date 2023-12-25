@@ -1,0 +1,65 @@
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "email": "hjyemmm@icloud.com",
+    "password": "Harvey"
+}
+
+###
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "email": "a",
+    "password": "a"
+}
+
+###
+
+GET http://localhost:3001/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhQGdtYS5jb20iLCJuYW1lIjoiSGFydmV5IiwiaWF0IjoxNjk0ODYzOTA2LCJleHAiOjE2OTQ4Njc1MDZ9.23Ae36aSeSJ0cRvbaABoJG2tBx5qdXw8Py8kitXfAHc
+
+
+
+###
+
+POST http://localhost:3001/signup
+Content-Type: application/json
+
+{
+    "email": "ga@gma.com",
+    "password": "a",
+    "name": "Harvey"
+}
+
+###
+
+DELETE http://localhost:3001/user/delete/cd
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwiaWF0IjoxNjkzNDM2NDIzLCJleHAiOjE2OTM0NDAwMjN9.bEs-BLDrILRkeGS_332yo63m7PS7QTn5ka6oJd4Lnz4
+
+{
+    "email": "cd"
+}
+
+
+###
+
+
+POST  http://localhost:3001/create-checkout-session
+Content-Type: application/json 
+
+{
+  "amount": 3000,
+  "productName": "Name of the Product"
+}
+
+###
+
+GET https://www.amazon.co.uk/Gigabyte-AORUS-GeForce-MASTER-Graphics/dp/B0BLT548VS/ref=sr_1_1_sspa?crid=B9K1WUA10TN7&keywords=rtx+4090&qid=1695562412&sprefix=rtx+4090%2Caps%2C75&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.cc223b57-2b86-485c-a85e-6431c1f06c86&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
+
+
+###
